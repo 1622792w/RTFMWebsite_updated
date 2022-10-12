@@ -40,6 +40,13 @@ const Builds = (props) => {
           </span>
         </Link>
       </div>
+      <div className='builds-container2'>
+        <Image
+          alt="image"
+          src="/playground_assets/treefarm.png"
+          className="treefarm-image">
+        </Image>
+      </div>
       <span className='copyright'>
         Copyright © RTFM Group 2022
       </span>
