@@ -23,7 +23,7 @@
 }
 .home-container2 {
   flex: 0 0 auto;
-  width: 426px;
+  width: 500px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -35,8 +35,8 @@
   background-color: rgba(0, 0, 0, 0.66);
 }
 .home-image {
-  width: 352px;
-  height: 381px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
 }
 .home-text {
@@ -46,7 +46,7 @@
 }
 .home-container3 {
   width: 100%;
-  height: var(--dl-size-size-maxwidth);
+  height: 1000px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
