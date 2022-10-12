@@ -9,10 +9,10 @@ const Members = (props) => {
   return (
     <div className="members-container">
       <Helmet>
-        <title>Members - Attached Long Chimpanzee</title>
+        <title>Members - RTFM Server</title>
         <meta
           property="og:title"
-          content="Members - Attached Long Chimpanzee"
+          content="Members - RTFM Server"
         />
       </Helmet>
       <div className="members-container1">

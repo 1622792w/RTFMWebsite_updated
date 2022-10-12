@@ -9,8 +9,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Attached Long Chimpanzee</title>
-        <meta property="og:title" content="Attached Long Chimpanzee" />
+        <title>RTFM Server</title>
+        <meta property="og:title" content="RTFM Server" />
       </Helmet>
       <div className="home-container1">
         <div className="home-container2">

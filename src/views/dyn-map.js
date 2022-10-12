@@ -9,8 +9,8 @@ const DynMap = (props) => {
   return (
     <div className="dyn-map-container">
       <Helmet>
-        <title>DynMap - Attached Long Chimpanzee</title>
-        <meta property="og:title" content="DynMap - Attached Long Chimpanzee" />
+        <title>DynMap - RTFM Server</title>
+        <meta property="og:title" content="DynMap - RTFM Server" />
       </Helmet>
       <div className="dyn-map-html-node">
         <span

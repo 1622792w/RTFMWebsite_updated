@@ -9,8 +9,8 @@ const Builds = (props) => {
   return (
     <div className="builds-container">
       <Helmet>
-        <title>Builds - Attached Long Chimpanzee</title>
-        <meta property="og:title" content="Builds - Attached Long Chimpanzee" />
+        <title>Builds - RTFM Server</title>
+        <meta property="og:title" content="Builds - RTFM Server" />
       </Helmet>
       <div className="builds-container1">
         <Link to="/" className="builds-builds button">
