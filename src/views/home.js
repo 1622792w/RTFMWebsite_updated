@@ -12,32 +12,7 @@ const Home = (props) => {
         <title>RTFM Server</title>
         <meta property="og:title" content="RTFM Server" />
         <link rel="Icon" href="/playground_assets/logo.png"></link>
-        <div className="home-container3">
-        <Link to="/about-us" className="home-navlink button">
-          <span>
-            <span>About Us</span>
-            <br></br>
-          </span>
-        </Link>
-        <Link to="/builds" className="home-navlink1 button">
-          <span>
-            <span>Builds</span>
-            <br></br>
-          </span>
-        </Link>
-        <Link to="/dyn-map" className="home-navlink2 button">
-          <span>
-            <span>DynMap</span>
-            <br></br>
-          </span>
-        </Link>
-        <button className="home-button button">
-          <Link to="/members" className="home-navlink3">
-            <span>Members</span>
-            <br></br>
-          </Link>
-        </button>
-      </div>
+        
       </Helmet>
       <div className="home-container1">
         <div className="home-container2">
@@ -50,6 +25,32 @@ const Home = (props) => {
             Welcome to the RTFM website!  Explore around and maybe join the
             server!
           </span>
+        </div>
+          <div className="home-container3">
+          <Link to="/about-us" className="home-navlink button">
+            <span>
+              <span>About Us</span>
+              <br></br>
+            </span>
+          </Link>
+          <Link to="/builds" className="home-navlink1 button">
+            <span>
+              <span>Builds</span>
+              <br></br>
+            </span>
+          </Link>
+          <Link to="/dyn-map" className="home-navlink2 button">
+            <span>
+              <span>DynMap</span>
+              <br></br>
+            </span>
+          </Link>
+          <button className="home-button button">
+            <Link to="/members" className="home-navlink3">
+              <span>Members</span>
+              <br></br>
+            </Link>
+          </button>
         </div>
       </div>
       <span className='copyright'>
