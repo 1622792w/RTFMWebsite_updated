@@ -4,6 +4,17 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import './builds.css'
+<html>
+  <body>
+    <div className='builds-container2'>
+      <img
+          alt="image"
+          src="/playground_assets/treefarm.png"
+          className="treefarm-image"
+        />
+    </div>
+  </body>
+</html>
 
 const Builds = (props) => {
   return (
@@ -28,8 +39,6 @@ const Builds = (props) => {
             <br></br>
           </span>
         </Link>
-      </div>
-      <div className='builds-container2'>
       </div>
       <span className='copyright'>
         Copyright © RTFM Group 2022
