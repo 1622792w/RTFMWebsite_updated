@@ -44,16 +44,3 @@
 .dyn-map-navlink3 {
   text-decoration: none;
 }
-.dyn-map-embed {
-  margin:     0;
-  padding:    0;
-  box-sizing: border-box;
-
-  width:  100%;
-  height: 100%;
-
-  border: none;
-
-  display: flex;
-  
-}
