@@ -7,11 +7,11 @@ import './builds.css'
 <html>
   <body>
     <div className='builds-container2'>
-      <img
+      <Image
           alt="image"
           src="/playground_assets/treefarm.png"
-          className="treefarm-image"
-        />
+          className="treefarm-image">
+        </Image>
     </div>
   </body>
 </html>
