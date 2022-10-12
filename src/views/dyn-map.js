@@ -46,6 +46,13 @@ const DynMap = (props) => {
           </Link>
         </button>
       </div>
+      <div className='.dyn-map-embed'>
+        <body>
+          <iframe width="100%" height="100%" src="https://main.dynmap.rtfmserver.online/">
+          </iframe>
+        </body>
+      </div>
+
     </div>
   )
 }
