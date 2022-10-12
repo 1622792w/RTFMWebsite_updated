@@ -40,7 +40,6 @@ const DynMap = (props) => {
       </div>
       <iframe
         src="https://dynmap.rtfmserver.online/"
-        allowFullScreen
         className="dyn-map-iframe"
       ></iframe>
     </div>
