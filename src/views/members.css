@@ -48,7 +48,8 @@
 .members-html-node {
   top: 50%;
   left: 50%;
-  position: center;
+  position: left;
+  opacity: 70%;
 }
 .copyright {
   color: #ffffff;
