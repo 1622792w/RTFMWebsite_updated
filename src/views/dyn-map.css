@@ -3,13 +3,9 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  justify-content: flex-start;
-}
-.dyn-map-html-node {
-  width: 1602px;
-  height: 983px;
+  justify-content: center;
 }
 .dyn-map-container1 {
   top: -4px;
@@ -43,19 +39,17 @@
 }
 .dyn-map-navlink3 {
   text-decoration: none;
-
 }
-.dynmap-embed {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  align-self: center;
-  bottom: auto;
+.dyn-map-iframe {
+  width: 320px;
+  height: 200px;
 }
-.copyright {
-  color: #000000;
+@media(max-width: 1200px) {
+  .dyn-map-iframe {
+    flex: 1;
+    width: 100%;
+    height: 866px;
+    align-self: center;
+    margin-top: var(--dl-space-space-threeunits);
+  }
 }
