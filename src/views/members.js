@@ -14,6 +14,14 @@ const Members = (props) => {
           property="og:title"
           content="Members - RTFM Server"
         />
+        <div className="members-html-node">
+        <span
+          dangerouslySetInnerHTML={{
+            __html:
+              '<iframe src="https://discord.com/widget?id=719543478270296074&theme=dark" width="350" height="500"\r\n    allowtransparency="true" frameborder="0"\r\n    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>',
+          }}
+        />
+      </div>
       </Helmet>
       <div className="members-container1">
         <Link to="/" className="members-builds button">
@@ -28,14 +36,6 @@ const Members = (props) => {
         <Link to="/dyn-map" className="members-dyn-map button">
           DynMap
         </Link>
-      </div>
-      <div className="members-html-node">
-        <span
-          dangerouslySetInnerHTML={{
-            __html:
-              '<iframe src="https://discord.com/widget?id=719543478270296074&theme=dark" width="350" height="500"\r\n    allowtransparency="true" frameborder="0"\r\n    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>',
-          }}
-        />
       </div>
     </div>
   )
