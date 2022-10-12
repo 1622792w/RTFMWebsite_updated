@@ -23,7 +23,8 @@ const Home = (props) => {
             Welcome to the RTFM website!  Explore around and maybe join the
             server!
           </span>
-          <div className="home-container1">
+        </div>
+        <div className="home-container1">
             <Link to="/about-us" className="home-navlink button">
               <span>
                 <span>About Us</span>
@@ -49,7 +50,6 @@ const Home = (props) => {
               </Link>
             </button>
           </div>
-        </div>
       <span className='copyright'>
         Copyright © RTFM Group 2022
       </span>
