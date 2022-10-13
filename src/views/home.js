@@ -14,8 +14,8 @@ const Home = (props) => {
       </Helmet>
       <div className="home-container1">
         <img
-          src="https://i.imgur.com/0NGNFyE.png"
           alt="image"
+          src="https://i.imgur.com/0NGNFyE.png"
           className="home-image"
         />
         <Link to="/about-us" className="home-navlink button">
@@ -45,15 +45,15 @@ const Home = (props) => {
       </div>
       <div className="home-container2">
         <div className="home-container3">
-          <img
-            src="https://i.imgur.com/0NGNFyE.png"
-            alt="image"
-            className="home-image1"
-          />
           <span className="home-text11">
             Welcome to the RTFM website!  Explore around and maybe join the
             server!
           </span>
+          <img
+            alt="image"
+            src="https://i.imgur.com/0NGNFyE.png"
+            className="home-image1"
+          />
         </div>
       </div>
       <span className="home-text12">Copyright @ RTFM Group 2022</span>

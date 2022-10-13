@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import GalleryCard1 from '../components/gallery-card1'
 import './builds.css'
 
 const Builds = (props) => {
@@ -14,17 +15,17 @@ const Builds = (props) => {
       </Helmet>
       <div className="builds-container1">
         <img
-          src="https://i.imgur.com/0NGNFyE.png"
           alt="image"
+          src="https://i.imgur.com/0NGNFyE.png"
           className="builds-image"
         />
-        <Link to="/Home" className="builds-navlink2 button">
+        <Link to="/" className="builds-navlink button">
           <span>
             <span>Home</span>
             <br></br>
           </span>
         </Link>
-        <Link to="/about-us" className="builds-navlink button">
+        <Link to="/about-us" className="builds-navlink1 button">
           <span>
             <span>About Us</span>
             <br></br>
@@ -42,6 +43,14 @@ const Builds = (props) => {
             <br></br>
           </Link>
         </button>
+      </div>
+      <div className="builds-gallery">
+        <GalleryCard1
+          rootClassName="rootClassName"
+          title="Tree Farm"
+          subtitle="We are always trying to find new ways to automate anything we can, as well as making it look good in the process."
+          image_src="https://i.imgur.com/mmozsL8.jpg"
+        ></GalleryCard1>
       </div>
     </div>
   )

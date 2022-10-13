@@ -46,3 +46,31 @@
 .builds-navlink3 {
   text-decoration: none;
 }
+.builds-gallery {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media(max-width: 991px) {
+  .builds-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .builds-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .builds-gallery {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}

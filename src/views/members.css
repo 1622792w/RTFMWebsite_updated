@@ -41,22 +41,24 @@
   text-decoration: none;
   background-color: rgb(0, 0, 0);
 }
-.members-button {
+.members-navlink3 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
   background-color: rgb(0, 0, 0);
 }
-.members-navlink3 {
-  text-decoration: none;
-}
 .members-iframe {
-  width: 443px;
-  height: 952px;
+  left: 1px;
+  width: 432px;
+  bottom: 0px;
+  height: 715px;
+  opacity: 0.8;
+  position: absolute;
   align-self: flex-end;
 }
-.members-text11 {
-  top: 67px;
-  left: 1090px;
-  color: #000000;
+.members-text12 {
+  top: 246px;
+  left: 36px;
+  color: rgb(0, 0, 0);
   position: absolute;
   font-style: normal;
   font-weight: 800;

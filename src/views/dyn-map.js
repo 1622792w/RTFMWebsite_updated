@@ -14,23 +14,23 @@ const DynMap = (props) => {
       </Helmet>
       <div className="dyn-map-container1">
         <img
-          src="https://i.imgur.com/0NGNFyE.png"
           alt="image"
+          src="https://i.imgur.com/0NGNFyE.png"
           className="dyn-map-image"
         />
-        <Link to="/Home" className="dyn-map-navlink2 button">
+        <Link to="/" className="dyn-map-navlink button">
           <span>
             <span>Home</span>
             <br></br>
           </span>
         </Link>
-        <Link to="/about-us" className="dyn-map-navlink button">
+        <Link to="/about-us" className="dyn-map-navlink1 button">
           <span>
             <span>About Us</span>
             <br></br>
           </span>
         </Link>
-        <Link to="/builds" className="dyn-map-navlink1 button">
+        <Link to="/builds" className="dyn-map-navlink2 button">
           <span>
             <span>Builds</span>
             <br></br>
