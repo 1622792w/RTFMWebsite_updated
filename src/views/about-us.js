@@ -78,15 +78,8 @@ const AboutUs = (props) => {
                     rel="noreferrer noopener"
                     className="about-us-link1"
                   >
-                    <span className="about-us-text4">
-                      About
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span className="about-us-text5">Us</span>
+                    <span>About</span>
+                    <span>Us</span>
                   </a>
                 </div>
               </li>
@@ -98,7 +91,9 @@ const AboutUs = (props) => {
                   data-thq="thq-dropdown-toggle"
                   className="about-us-dropdown-toggle3"
                 >
-                  <span className="about-us-link2">Builds</span>
+                  <Link to="/builds" className="about-us-link2">
+                    Builds
+                  </Link>
                 </div>
               </li>
               <li
@@ -122,7 +117,9 @@ const AboutUs = (props) => {
                   data-thq="thq-dropdown-toggle"
                   className="about-us-dropdown-toggle5"
                 >
-                  <span className="about-us-link4">Members</span>
+                  <Link to="/members" className="about-us-link4">
+                    Members
+                  </Link>
                 </div>
               </li>
               <li

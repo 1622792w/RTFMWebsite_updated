@@ -173,12 +173,6 @@
 .about-us-link1 {
   text-decoration: underline;
 }
-.about-us-text4 {
-  text-decoration: underline;
-}
-.about-us-text5 {
-  text-decoration: underline;
-}
 .about-us-dropdown2 {
   cursor: pointer;
   display: inline-block;
@@ -361,19 +355,10 @@
     text-decoration: inherit;
   }
   .about-us-link1 {
-    text-decoration: inherit;
-  }
-  .about-us-text5 {
     text-decoration: underline;
-  }
-  .about-us-link2 {
-    text-decoration: none;
   }
   .about-us-link3 {
     text-decoration: underline;
-  }
-  .about-us-link4 {
-    text-decoration: none;
   }
   .about-us-link5 {
     text-decoration: underline;

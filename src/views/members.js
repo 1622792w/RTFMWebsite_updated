@@ -99,7 +99,9 @@ const Members = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="members-dropdown-toggle3"
                   >
-                    <span className="members-link2">Builds</span>
+                    <Link to="/builds" className="members-link2">
+                      Builds
+                    </Link>
                   </div>
                 </li>
                 <li
@@ -123,7 +125,9 @@ const Members = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="members-dropdown-toggle5"
                   >
-                    <span className="members-link4">Members</span>
+                    <Link to="/members" className="members-link4">
+                      Members
+                    </Link>
                   </div>
                 </li>
                 <li

@@ -72,7 +72,7 @@ const Builds = (props) => {
                     rel="noreferrer noopener"
                     className="builds-link1"
                   >
-                    <span className="builds-text4">
+                    <span>
                       About
                       <span
                         dangerouslySetInnerHTML={{
@@ -80,7 +80,7 @@ const Builds = (props) => {
                         }}
                       />
                     </span>
-                    <span className="builds-text5">Us</span>
+                    <span>Us</span>
                   </a>
                 </div>
               </li>
@@ -92,7 +92,9 @@ const Builds = (props) => {
                   data-thq="thq-dropdown-toggle"
                   className="builds-dropdown-toggle3"
                 >
-                  <span className="builds-link2">Builds</span>
+                  <Link to="/builds" className="builds-link2">
+                    Builds
+                  </Link>
                 </div>
               </li>
               <li
@@ -116,7 +118,9 @@ const Builds = (props) => {
                   data-thq="thq-dropdown-toggle"
                   className="builds-dropdown-toggle5"
                 >
-                  <span className="builds-link4">Members</span>
+                  <Link to="/members" className="builds-link4">
+                    Members
+                  </Link>
                 </div>
               </li>
               <li

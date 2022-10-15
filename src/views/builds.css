@@ -173,12 +173,6 @@
 .builds-link1 {
   text-decoration: underline;
 }
-.builds-text4 {
-  text-decoration: underline;
-}
-.builds-text5 {
-  text-decoration: underline;
-}
 .builds-dropdown2 {
   cursor: pointer;
   display: inline-block;
@@ -361,19 +355,10 @@
     text-decoration: inherit;
   }
   .builds-link1 {
-    text-decoration: inherit;
-  }
-  .builds-text5 {
     text-decoration: underline;
-  }
-  .builds-link2 {
-    text-decoration: none;
   }
   .builds-link3 {
     text-decoration: underline;
-  }
-  .builds-link4 {
-    text-decoration: none;
   }
   .builds-link5 {
     text-decoration: underline;
