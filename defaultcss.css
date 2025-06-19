@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+a {
+	font-weight:bold
+}
+
+hr {
+	border: 3px solid black;
+}
+
+body {
+	/* background-color:black;  */
+	background-image:url();
+	background-position: 50%;
+	background-attachment:fixed; 
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0px; 
+	font-family:Verdana
+}
+
+p {
+	font-family:Trebuchet MS;
+	font-family: "Montserrat", serif;
+	color: black;
+	text-align:left;
+	font-size:medium
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	font-family: "Quicksand";
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #267546;
+}
+
+label {
+	background-color: #267546;
+	color: white;
+	padding: 5px;
+}
+
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin-top: 9px;
+	margin-bottom: 18px;
+	resize: vertical;
+	font-family: Verdana;
+}
+  
+input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+  
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+input[type=checkbox] {
+	resize: vertical;
+	font-family: Verdana;
+	background-color: #267546;
+	margin-top: 9px;
+	margin-bottom: 18px;
+	padding: 10px;
+}
+
+.coolbanner {
+    width:100%; 
+	margin-top:px; 
+	background-color:black; 
+	height:40px; 
+	padding:0px; 
+	border-bottom:medium groove #121212DD; 
+	box-shadow: 0px 2px 5px #00000050; 
+	position:fixed; 
+	top:0px;
+	z-index:999
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	width: auto;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	color: black;
+}
+.dropdown-content a:hover{
+	background-color: rgb(75, 74, 74);
+	color: white;
+	
+}
+.dropdown-content a {
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.navbarPlayerhead {
+	height: 15px;
+	padding-right: 15px;
+}
+
+.banner {
+    position: relative;
+    top: 0;
+    left: 0;
+	width:100%;
+	height:580px; 
+	margin: 0 auto; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	z-index: -999;
+}
+.bannerbackground {
+	margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width:100%;
+	height:580px; 
+}
+.bannerforeground {
+    position: absolute;
+    top: 120px;
+    left: 30%;
+
+}
+
+.mainwrapper {
+	background-color: #f2f2f2;
+	padding: 20px;
+	width:1080px;
+	height:auto;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding-bottom: 35px;
+	display: block;
+	justify-content:space-between;
+        
+    }
+.leftBlog {
+	background-color: #f2f2f2;
+	float: left;
+	width: 45%;
+	padding: 1%;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.rightBlog {
+	background-color: #f2f2f2;
+	float: right;
+	width: 45%;
+	padding: 1%;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+.footer {
+	background-color: rgba(26, 25, 25, 0.952);
+	color: white;
+	padding: 1%;
+	margin-top: 100px;
+	height: 30px;
+	width: auto;
+	bottom: 0;
+}
+
+.footer p {
+	color: white;
+	margin-bottom: 20px;
+	margin-left: 40%;
+}
+
+.footer p a {
+	text-decoration-thickness: 1px;
+	color: white;
+}

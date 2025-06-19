@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RTFM Homepage</title>
+    <link rel="icon" href="RTFM.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="defaultcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <style>
+        .navbar-nav {
+            flex-direction: column;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="RTFM.png" alt="RTFM Logo" height="34" class="me-2">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="members.html" id="membersDropdown">Members</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/NedaHead.png" class="me-2" height="24"> CaptainNeda</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/KitHead.png" class="me-2" height="24"> KitLemonfoot</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/CrimsonHead.png" class="me-2" height="24"> Cha0sCrimson</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/RodanHead.png" class="me-2" height="24"> Rodan359</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/HAX0RHead.png" class="me-2" height="24"> The_HAX0R_31337</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="builds.html">Our Builds</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Join Us!</a></li>
+                </ul>
+            </div>
+
+            <div class="ms-auto">
+                <a href="https://www.paypal.com/paypalme/RTFMcontabo" class="btn btn-warning">Support Us!</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="position-relative text-center">
+        <img src="RTFM_Pond.png" class="img-fluid w-100" alt="Banner Background">
+        <img src="RTFM_Letters.png" class="position-absolute top-50 start-50 translate-middle" alt="Banner Foreground">
+    </div>
+
+    <hr>
+
+    <div class="container mt-4 pb-4">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <h2 class="mb-3">Welcome!</h2>
+                <p class="mb-4">
+                    Welcome to Redstone Technical Farms Mob, a technical Minecraft
+                    community dedicated to farming every item in the game at the fastest possible rates.
+                    Through innovation, optimization, and collaboration, our members push the limits of Minecraft's 
+                    mechanics to develop the most efficient farms and contraptions.
+                </p>
+            </div>
+
+            <div class="col-lg-6">
+                <h2 class="mb-3">Servers:</h2>
+                <h3 class="mb-2"><i class="fas fa-home"></i> &nbsp Main:</h3>
+                <p class="mb-4">
+                    The main server is the primary server we use. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Debitis exercitationem enim fuga, aliquam cupiditate amet laudantium.
+                </p>
+                <h3 class="mb-2"><i class="fas fa-lightbulb"></i> &nbsp Creative:</h3>
+                <p class="mb-4">
+                    The Creative server is accessible to all members and features WorldEdit, Axiom, 
+                    and Carpet Mod. It is primarily used for designing and testing redstone contraptions.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-6 mx-auto">
+                <h2 class="mb-3"><i class="fas fa-hdd"></i> Server IP</h2>
+                <h4 class="mb-3"><strong>mc.rtfmserver.win (1.21.4)</strong></h4>
+                <h4 class="mb-4"><strong>creative.rtfmserver.win (1.21.4)</strong></h4>
+            </div>
+
+            <div class="col-lg-6">
+                <h2 class="mb-3"><i class="fas fa-book"></i> Server Specs</h2>
+                <p class="mb-4">
+                    Intel Core i7 13700 processor<br>
+                    32 GB of DDR5 PC5600<br>
+                    1 TB NMVE SSD<br>
+                    Running Pterodactyl on Ubuntu Linux<br>
+                    We have a Proxy!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-4">
+        <div class="container d-flex justify-content-center">
+            <p class="mb-0">©2025 RTFM ∙ <a href="legal.html" class="text-light">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

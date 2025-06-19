@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - RTFM</title>
+    <link rel="icon" href="RTFM.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="defaultcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <style>
+        .navbar-nav {
+            flex-direction: column;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="RTFM.png" alt="RTFM Logo" height="34" class="me-2">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="members.html" id="membersDropdown">Members</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/NedaHead.png" class="me-2" height="24"> CaptainNeda</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/KitHead.png" class="me-2" height="24"> KitLemonfoot</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/CrimsonHead.png" class="me-2" height="24"> Cha0sCrimson</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/RodanHead.png" class="me-2" height="24"> Rodan359</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="AvatarHeads/HAX0RHead.png" class="me-2" height="24"> The_HAX0R_31337</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="builds.html">Our Builds</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Join Us!</a></li>
+                </ul>
+            </div>
+
+            <div class="ms-auto">
+                <a href="https://www.paypal.com/paypalme/RTFMcontabo" class="btn btn-warning">Support Us!</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="contact-form">
+            <form action="contact-form-handler.php" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label"><i class="fas fa-user"></i> Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label"><i class="fas fa-heading"></i> Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label"><i class="fas fa-comment"></i> Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-4">
+        <div class="container d-flex justify-content-center">
+            <p class="mb-0">©2025 RTFM ∙ <a href="legal.html" class="text-light">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
