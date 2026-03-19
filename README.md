@@ -1,5 +1,5 @@
 # TO DO:
 
-## Restructure the image locations, put them all into one folder/subfolders
-## make the contents of the members and builds pages
-## figure out how we can (safely) put a link to our discord without getting raided
+## Make "builds" page and put images into it.
+## Make layout for the "Join Us" page.
+## Figure out how we can (safely) put a link to our discord without getting raided.
